@@ -1,6 +1,5 @@
 import NavBar from "@/component/NavBar"
-import { useRouter } from "next/router"
-import Link from "next/link"
+
 
 export const getStaticPaths = async () => {
     const res = await fetch("https://jsonplaceholder.typicode.com/posts")
